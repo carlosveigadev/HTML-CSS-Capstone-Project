@@ -3,6 +3,16 @@
    License: none (public domain)
 */
 
+:root {
+    --primary-color: #d35649;
+    --primary-orange: #e17f65;
+    --primary-gray: #d0cde1;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+	--primary-purple: #575a89;
+}
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,3 +56,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
