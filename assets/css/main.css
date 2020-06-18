@@ -1,4 +1,4 @@
-body {
+body > * {
     font-family:'Acumin Pro';
 }
 
@@ -56,12 +56,39 @@ body nav div li span {
     display: none;
 }
 
-body section {
-    margin-top: 110px;
-    height: 200px;
-    background-image: url("assets/images/group-1.jpg");
+body section.hero {
+    margin-top: 100px;
+    height: 500px;
+    background-image: url("/assets/images/group-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body section.hero div p {
+    margin-top: 6em;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+body section.hero div form {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.9)
+    text-shadow: 2px 2px 4px white;
+}
+
+body section.hero a,
+body section.hero div form input.button {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+    border: 0;
+}
+
+body section.hero a {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.9)
 }
 
