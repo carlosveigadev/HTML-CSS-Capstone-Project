@@ -12,6 +12,7 @@ body nav {
   flex-direction: column;
   justify-content: space-between;
   color: var(--primary-gray);
+  padding-top: 0.5em;
 }
 
 body nav img {
