@@ -1,98 +1,135 @@
 body > * {
-    font-family:'Acumin Pro';
+  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
 }
 
 body nav {
-    height: auto;
-    background-color: var(--primary-color);
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    color: var(--primary-gray);
+  height: auto;
+  background-color: var(--primary-color);
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--primary-gray);
 }
 
 body nav img {
-    width: 100px;
+  width: 100px;
 }
 
 body nav div:first-child {
-    display: flex;
-    font-size: 2em;
-    text-shadow: 2px 2px var(--primary-purple);
-    justify-content: center;
+  display: flex;
+  font-size: 2em;
+  text-shadow: 2px 2px var(--primary-purple);
+  justify-content: center;
 }
 
 body nav div span {
-    padding-top: 0.3em;
-    padding-left: 0.5em;
+  padding-top: 0.3em;
+  padding-left: 0.5em;
 }
 
 body nav div ul {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  margin: 0.5em;
 }
 
 body nav div li a {
-    justify-content: space-between;
-    text-decoration: none;
-    padding: 0.5em 1.6em;
-    color: white;
-}
-
-body nav div span:hover {
-    cursor: pointer;
-    color: var(--primary-gray);  
-}
-
-body nav div li a:hover {
-    color: var(--primary-gray); 
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 0.5em 1.6em;
+  color: white;
 }
 
 body nav div li span {
-    display: none;
+  display: none;
 }
 
-body section.hero {
-    margin-top: 100px;
-    height: 500px;
-    background-image: url("/assets/images/group-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-body section.hero div p {
-    margin-top: 6em;
-    color: white;
-    font-weight: 700;
-    text-shadow: 2px 2px 2px black;
-
-}
-
-body section.hero div form {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: rgba(0, 0, 0, 0.9)
-    text-shadow: 2px 2px 4px white;
+body nav div span:hover {
+  cursor: pointer;
+  color: var(--primary-gray);
 }
 
 body section.hero a,
 body section.hero div form input.button {
-    background-color: var(--primary-color);
-    color: white;
-    font-weight: 700;
-    border: 0;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 700;
+  border: 0;
 }
 
 body section.hero a {
-    background-color: rgba(255, 255, 255, 0.8);
-    color: rgba(0, 0, 0, 0.9)
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.9);
+  transition: 1s ease-in-out;
+}
+
+body section.hero a:hover {
+    transition: 1s ease-in-out;
+    background: var(--primary-color);
+    text-decoration: none;
+    color: white;
+  }
+
+body nav div li a:hover {
+  color: var(--primary-gray);
+}
+
+body section.hero {
+  margin-top: 100px;
+  height: 500px;
+  background-image: url("/assets/images/group-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body section.hero div h6 {
+  line-height: 1.5em;
+  margin-top: 6em;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px black;
+}
+
+body section.hero div form {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.9);
+  text-shadow: 2px 2px 4px white;
+}
+
+body section.hero div form input {
+    height: 40px;
 }
 
 body footer {
-    background-color: black;
+  background-color: var(--gray-footer);
+  color: var(--primary-gray);
 }
 
+body footer div ul li a {
+    color: var(--primary-gray);
+    padding: 0 1em;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+  }
+  
+.fa-twitter:hover {
+    color: #1da1f2;
+  }
+  
+.fa-instagram:hover {
+    color: #405de6;
+  }
+  
+.fa-tumblr:hover {
+    color: #35465c;
+  }
+  
+.fa-linkedin:hover {
+    color: #0077b5;
+  }

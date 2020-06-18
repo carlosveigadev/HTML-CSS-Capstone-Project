@@ -1,60 +1,56 @@
 body {
-    font-family:'Acumin Pro';
+  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
 }
 
 body nav {
-    width: 100%;
-    height: auto;
-    background-color: var(--primary-color);
-    display: flex;
-    position: fixed;
-    flex-direction: column;
-    justify-content: space-between;
-    color: var(--primary-gray);
+  width: 100%;
+  height: auto;
+  background-color: var(--primary-color);
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--primary-gray);
 }
 
 body nav img {
-    width: 100px;
+  width: 100px;
 }
 
 body nav div:first-child {
-    display: flex;
-    font-size: 2em;
-    text-shadow: 2px 2px var(--primary-purple);
-    justify-content: center;
+  display: flex;
+  font-size: 2em;
+  text-shadow: 2px 2px var(--primary-purple);
+  justify-content: center;
 }
 
 body nav div span {
-    padding-top: 0.3em;
-    padding-left: 0.5em;
+  padding-top: 0.3em;
+  padding-left: 0.5em;
 }
 
 body nav div ul {
-    display: flex;
-    justify-content: center;
-    margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  margin: 0.5em;
 }
 
 body nav div li a {
-    justify-content: space-between;
-    text-decoration: none;
-    padding: 0.5em 1.6em;
-    color: white;
-    
-
-}
-
-body nav div span:hover {
-    cursor: pointer;
-    color: var(--primary-gray);  
-}
-
-body nav div li a:hover {
-    color: var(--primary-gray); 
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 0.5em 1.6em;
+  color: white;
 }
 
 body nav div li span {
-    display: none;
-
+  display: none;
 }
 
+body nav div span:hover {
+  cursor: pointer;
+  color: var(--primary-gray);
+}
+
+body nav div li a:hover {
+  color: var(--primary-gray);
+}
