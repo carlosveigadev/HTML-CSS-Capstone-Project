@@ -2,7 +2,7 @@ body > * {
   font-family: 'PT Sans', sans-serif;
 }
 
-.bg-orange  {
+.bg-orange {
   background-color: var(--primary-color);
 }
 
@@ -47,16 +47,10 @@ body nav div:first-child {
   justify-content: center;
 }
 
-body nav div span {
+body nav div a {
   padding-top: 0.3em;
   padding-left: 0.5em;
   color: white;
-}
-
-body nav div ul {
-  display: flex;
-  justify-content: center;
-  margin: 0.5em;
 }
 
 body nav div li a {
@@ -64,15 +58,6 @@ body nav div li a {
   text-decoration: none;
   padding: 0.5em 1.6em;
   color: white;
-}
-
-body nav div li span {
-  display: none;
-}
-
-body nav div span:hover {
-  cursor: pointer;
-  color: var(--primary-gray);
 }
 
 body footer div ul li a {
@@ -88,19 +73,46 @@ body section.hero div form input.button {
   border: 0;
 }
 
-body section.hero .anc-btn {
-  background-color: var(--primary-color);
-  color: white;
-}
-
 body section.hero a {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.9);
   transition: 1s ease-in-out;
 }
 
+body nav div a:hover {
+  color: var(--gray-light);
+}
+
+body nav div ul {
+  display: flex;
+  justify-content: center;
+  margin: 0.5em;
+}
+
+body nav div li span {
+  display: none;
+}
+
+body nav div span:hover {
+  cursor: pointer;
+  color: var(--primary-gray);
+}
+
+body section.hero .anc-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+body section.hero-lg div a {
+  background-color: white;
+}
+
 body nav div li a:hover {
   color: var(--primary-gray);
+}
+
+body section.hero-lg div h4 {
+  font-weight: 700;
 }
 
 body footer div.large-footer ul li a,
@@ -158,6 +170,7 @@ body section.explanation-section i {
 
 body section.hero-lg {
   display: none;
+  color: white;
 }
 
 body section.hero-lg div img {
@@ -166,23 +179,10 @@ body section.hero-lg div img {
   border-radius: 50%;
 }
 
-body section.hero-lg {
-  color: white;
-}
-
-body section.hero-lg div h4 {
-  font-weight: 700;
-}
-
-body section.hero-lg div a {
-  background-color: white;
-}
-
 body section.hero-lg div a:hover {
   color: var(--gray-footer-btn);
   text-decoration: none;
 }
-
 
 body footer {
   background-color: var(--gray-footer);
