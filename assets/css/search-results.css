@@ -91,6 +91,7 @@ body nav div ul {
 
 body nav div li span {
   display: none;
+  padding-left: 15px;
 }
 
 body nav div span:hover {
