@@ -4,35 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="assets/font/fonts.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/search-results.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media-query/search-mq.css" type="text/css">
     <script src="https://kit.fontawesome.com/187d11cae1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
-    <title>Search Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Search Page</title>
 </head>
 <body>
     <nav>
         <div>
             <img src="assets/images/undraw_stand_out_1oag.svg" alt="logo">
-            <span>gatherings</span>
+            <span>[gatherings]</span>
         </div>
         <div>
             <ul>
                 <li>
-                    <a href="main.html"><i class="fas fa-search"></i><span>Search</span></a>
+                    <a href="search-results.html"><i class="fas fa-search"></i><span>Search</span></a>
                 </li>
                 <li>
-                    <a href="main.html"><i class="far fa-user"></i><span>About</span></a>
+                    <a href="detail.html"><i class="far fa-user"></i><span>About</span></a>
                 </li>
                 <li>
-                    <a href="main.html"><i class="fas fa-rss"></i><span>Blog</span></a>
+                    <a href="#"><i class="fas fa-rss"></i><span>Blog</span></a>
                 </li>
                 <li>
-                    <a href="main.html"><i class="fas fa-bars"></i><span>More</span></a>
+                    <a href="detail.html"><i class="fas fa-bars"></i><span>More</span></a>
                 </li>
             </ul>
         </div>
     </nav>
+    <section>
+        <div> </div>
+    </section>
+    <footer class="d-flex flex-column">
+        <div class="large-footer">
+            <div>
+                <ul class="d-flex justify-content-center my-5 text-uppercase">
+                    <li>
+                        <a href="main.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="search-results.html">Search</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Advertise</a>
+                    </li>
+                    <li class="rounded-circle">
+                        <a  href="#"><i class="fas fa-map-marker-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="main.html">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="search-results.html">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-fluid row">
+                <div class="col-4">
+                    <form>
+                        <h4>Subscribe</h4>
+                        <div>
+                            <input type="email" id="subscribe" placeholder="Insert your e-mail here">
+                            <input class="button rounded my-1 py-2 px-4" type="submit" value="send">
+                        </div> 
+                    </form>
+                </div>
+                <div class="col-4">
+                    <h4>Contact</h4>
+                    <p>Have a question or sugestion?</p>
+                    <a href="#">contact@gatherings.com</a>
+                </div>
+                <div class="col-4">
+                    <h4>About</h4>
+                    <p>[gatherings] is an online plataform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="details.html">learn more.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between"> 
+            <div>
+                <ul class="d-inline-flex py-3 px-3">
+                    <li><a href=""><i class="fab fa-facebook-square pr-1"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter pr-1"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram pr-1"></i></a></li>
+                    <li><a href=""><i class="fab fa-tumblr pr-1"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin pr-1"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="small py-3 px-3 mr-4">© 2020 [gatherings], Inc. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
