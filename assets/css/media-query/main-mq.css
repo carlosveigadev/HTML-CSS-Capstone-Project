@@ -17,11 +17,21 @@
      }
 
      body nav img {
-         padding-left: 0.5em;
+        padding-left: 0.5em;
      }
 
      body section.hero-lg {
-         display: block;
+        display: block;
+     }
+
+     body section.hero div h6 {
+        font-size: 2em;
+        margin-top: 2.5em;
+     }
+
+     body section.hero form {
+         
+        min-width: 400px;
      }
 
 }
