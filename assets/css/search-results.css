@@ -75,20 +75,38 @@ cursor: pointer;
 color: var(--primary-gray);
 }
 
-section {
+body section.search {
     background-color: var(--light-gray);
     margin: 150px 0 50px 0;
 }
 
-section div {
+body section.search div {
     justify-content: center;
 }
 
-section div button {
+body section.results div {
+    height: 300px;
+    min-width: 200px;
+    background-color: var(--primary-color);
+    background: url('/assets/images/undraw_stand_out_1oag.svg') no-repeat, var(--primary-color);
+    background-position: center;
+    background-size: contain;
+    margin: 1em 2em;
+}
+
+body section.results div h3 {
+    color: white;
+    text-shadow: 2px 2px 2px var(--light-gray);
+    font-size: 1.5em;
+    margin: 10em 0;
+    padding: 0 1em;
+}
+
+body section.search div button {
     margin-top: 32px;
 }
 
-section div input[type=text] {
+body section.search  div input[type=text] {
     min-width: 328px;
 }
 
