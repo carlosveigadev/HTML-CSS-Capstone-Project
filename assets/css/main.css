@@ -102,7 +102,11 @@ body section.hero div form {
 }
 
 body section.hero div form input {
-    height: 40px;
+  height: 40px;
+}
+
+body section.explanation-section h5 {
+  font-family: 'Acumin Pro Bold';
 }
 
 body footer {
@@ -111,25 +115,25 @@ body footer {
 }
 
 body footer div ul li a {
-    color: var(--primary-gray);
-    padding: 0 1em;
+  color: var(--primary-gray);
+  padding: 0 1em;
 }
 
 .fa-facebook-square:hover {
-    color: #3b5998;
-  }
+  color: #3b5998;
+}
   
 .fa-twitter:hover {
-    color: #1da1f2;
-  }
+  color: #1da1f2;
+}
   
 .fa-instagram:hover {
-    color: #405de6;
-  }
+  color: #405de6;
+}
   
 .fa-tumblr:hover {
-    color: #35465c;
-  }
+  color: #35465c;
+}
   
 .fa-linkedin:hover {
     color: #0077b5;
