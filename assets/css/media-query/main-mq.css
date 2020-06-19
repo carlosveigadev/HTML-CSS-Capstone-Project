@@ -20,4 +20,10 @@
          padding-left: 0.5em;
      }
 
+}
+
+@media (min-width: 1024px) {
+    body nav div li span {
+        display: inline;
     }
+}
