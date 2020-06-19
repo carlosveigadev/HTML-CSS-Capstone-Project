@@ -2,6 +2,18 @@ body > * {
   font-family: 'PT Sans', sans-serif;
 }
 
+.bg-orange  {
+  background-color: var(--primary-color);
+}
+
+.bg-blue {
+  background-color: var(--primary-blue);
+}
+
+.bg-gray {
+  background-color: var(--primary-gray);
+}
+
 body nav {
   height: auto;
   background-color: var(--primary-color);
@@ -30,6 +42,7 @@ body nav div:first-child {
 body nav div span {
   padding-top: 0.3em;
   padding-left: 0.5em;
+  color: white;
 }
 
 body nav div ul {
@@ -135,6 +148,21 @@ body section.explanation-section i {
   font-size: 2em;
 }
 
+body section.hero-lg div img {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+body section.hero-lg {
+  color: white;
+}
+
+body section.hero-lg div h4 {
+  font-weight: 700;
+}
+
+
 body footer {
   background-color: var(--gray-footer);
   color: var(--primary-gray);
@@ -180,6 +208,8 @@ body footer div.large-footer div div input {
 
 body footer div.large-footer div div input.button {
   background-color: var(--gray-footer-btn);
+  border: 1px solid var(--primary-gray);
+  font-weight: 700;
 }
 
 .fa-facebook-square:hover {
