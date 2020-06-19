@@ -35,7 +35,42 @@
         </div>
     </nav>
     <section>
-        <div> </div>
+        <h4 class="py-4 text-center font-weight-bold clr-gray">Filter by location, host, subject, date, daytime:</h4>
+        <div class="form-column px-4 py-4">
+            <div class="form-group">
+                <label for="inputCity">Location</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group">
+                <label for="inputCity">Host</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group">
+                <label for="inputCity">Subject</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group">
+                <label for="inputInitialDate"> Initial Date</label>
+                <input class="form-control" type="date" value="2020-06-18" id="inputInitialDate">
+            </div>
+            <div class="form-group">
+                <label for="inputInitialDate"> Final Date</label>
+                <input class="form-control" type="date" value="2020-06-18" id="inputInitialDate">
+            </div>
+            <div class="form-group">
+                <label for="inputDate">Daytime</label>
+                <select id="inputDate" class="form-control">
+                <option selected>Choose...</option>
+                <option>Day</option>
+                <option>Night</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Search</button>   
+                <button type="submit" class="btn btn-warning text-white"><i class="far fa-edit"></i> Clear Filter</button>   
+            </div>
+            
+        </div>
     </section>
     <footer class="d-flex flex-column">
         <div class="large-footer">

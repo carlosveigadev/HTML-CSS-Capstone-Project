@@ -76,7 +76,8 @@ color: var(--primary-gray);
 }
 
 section {
-    height: 1000px;
+    background-color: var(--light-gray);
+    margin: 150px 0 50px 0;
 }
 
 body footer div ul li a {
