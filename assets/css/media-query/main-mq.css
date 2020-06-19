@@ -26,4 +26,12 @@
     body nav div li span {
         display: inline;
     }
+
+    body nav div li a:hover {
+        text-decoration: none;
+    }
+
+    body footer div.large-footer {
+        display: block;
+    }
 }
