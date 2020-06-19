@@ -20,6 +20,10 @@
          padding-left: 0.5em;
      }
 
+     section div {
+        justify-content: center;
+    }
+
      body section.hero-lg {
          display: block;
      }
@@ -35,7 +39,16 @@
         text-decoration: none;
     }
 
+    
+
+    section div input[type=text] {
+        min-width: 100px;
+        max-width: 100px;        
+    }
+
     body footer div.large-footer {
         display: block;
     }
+
+    
 }

@@ -80,6 +80,18 @@ section {
     margin: 150px 0 50px 0;
 }
 
+section div {
+    justify-content: center;
+}
+
+section div button {
+    margin-top: 32px;
+}
+
+section div input[type=text] {
+    min-width: 328px;
+}
+
 body footer div ul li a {
 color: var(--primary-gray);
 padding: 0 1em;
