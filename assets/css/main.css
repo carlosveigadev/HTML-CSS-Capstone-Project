@@ -6,12 +6,20 @@ body > * {
   background-color: var(--primary-color);
 }
 
+.clr-orange {
+  color: var(--primary-color);
+}
+
 .bg-blue {
   background-color: var(--primary-blue);
 }
 
 .bg-gray {
   background-color: var(--primary-gray);
+}
+
+.clr-gray {
+  color: var(--primary-gray);
 }
 
 body nav {
@@ -148,6 +156,10 @@ body section.explanation-section i {
   font-size: 2em;
 }
 
+body section.hero-lg {
+  display: none;
+}
+
 body section.hero-lg div img {
   max-width: 300px;
   height: 300px;
@@ -160,6 +172,15 @@ body section.hero-lg {
 
 body section.hero-lg div h4 {
   font-weight: 700;
+}
+
+body section.hero-lg div a {
+  background-color: white;
+}
+
+body section.hero-lg div a:hover {
+  color: var(--gray-footer-btn);
+  text-decoration: none;
 }
 
 

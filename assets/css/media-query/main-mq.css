@@ -20,6 +20,10 @@
          padding-left: 0.5em;
      }
 
+     body section.hero-lg {
+         display: block;
+     }
+
 }
 
 @media (min-width: 1024px) {
