@@ -1,5 +1,5 @@
 body > * {
-  font-family: 'Acumin Pro', Arial, Helvetica, sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 body nav {
@@ -54,6 +54,11 @@ body nav div span:hover {
   color: var(--primary-gray);
 }
 
+body footer div ul li a {
+  color: var(--primary-gray);
+  padding: 0 1em;
+}
+
 body section.hero a,
 body section.hero div form input.button {
   background-color: var(--primary-color);
@@ -62,21 +67,37 @@ body section.hero div form input.button {
   border: 0;
 }
 
+body section.hero .anc-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
 body section.hero a {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.9);
   transition: 1s ease-in-out;
 }
 
-body section.hero a:hover {
-    transition: 1s ease-in-out;
-    background: var(--primary-color);
-    text-decoration: none;
-    color: white;
-  }
-
 body nav div li a:hover {
   color: var(--primary-gray);
+}
+
+body footer div.large-footer ul li a,
+body footer div.large-footer div:nth-child(2) h4 {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+
+body footer div.large-footer div div a {
+  color: var(--primary-color);
+}
+
+body section.hero a:hover {
+  transition: 1s ease-in-out;
+  background: var(--primary-color);
+  text-decoration: none;
+  color: white;
 }
 
 body section.hero {
@@ -99,7 +120,6 @@ body section.hero div h6 {
 body section.hero div form {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.9);
-  text-shadow: 2px 2px 4px white;
 }
 
 body section.hero div form input {
@@ -107,7 +127,8 @@ body section.hero div form input {
 }
 
 body section.explanation-section h5 {
-  font-family: 'Acumin Pro Bold', Arial, Helvetica, sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
 }
 
 body section.explanation-section i {
@@ -123,15 +144,10 @@ body footer div.large-footer {
   display: none;
 }
 
-body footer div.large-footer ul li a,
-body footer div.large-footer  div:nth-child(2) h4 {
-  color: white;
-  font-family: 'Acumin Pro Bold', Arial, Helvetica, sans-serif;
-}
-
 body footer div.large-footer ul li a:hover {
   color: var(--primary-gray);
-  font-family: 'Acumin Pro Bold', Arial, Helvetica, sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -145,16 +161,12 @@ body footer div.large-footer ul li {
 body footer div.large-footer ul li:nth-child(5) {
   border: 3px solid var(--primary-gray);
   font-size: 40px;
-  padding: 0.70em 0;
+  padding: 0.7em 0;
 }
 
 body footer div.large-footer div:nth-child(2) {
   text-align: center;
   color: white;
-}
-
-body footer div.large-footer div div a {
-  color: var(--primary-color);
 }
 
 body footer div.large-footer div div input {
@@ -168,30 +180,24 @@ body footer div.large-footer div div input {
 
 body footer div.large-footer div div input.button {
   background-color: var(--gray-footer-btn);
-} 
-
-
-body footer div ul li a {
-  color: var(--primary-gray);
-  padding: 0 1em;
 }
 
 .fa-facebook-square:hover {
   color: #3b5998;
 }
-  
+
 .fa-twitter:hover {
   color: #1da1f2;
 }
-  
+
 .fa-instagram:hover {
   color: #405de6;
 }
-  
+
 .fa-tumblr:hover {
   color: #35465c;
 }
-  
+
 .fa-linkedin:hover {
-    color: #0077b5;
-  }
+  color: #0077b5;
+}
