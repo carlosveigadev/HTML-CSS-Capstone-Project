@@ -176,8 +176,22 @@ body section.hero-lg div a:hover {
 }
 
 body section.card-result {
-  margin: 10em 2em 5em 2em ;
-  box-shadow: 5px 5px 15px gray, -5px -5px 15px gray ;
+  margin: 10em 2em 5em 2em;
+  box-shadow: 5px 5px 15px var(--primary-gray), -5px -5px 15px var(--primary-gray);
+}
+
+body section.card-result div div.shadow-div {
+  box-shadow: 1px 1px 5px var(--primary-gray), -1px -1px 5px var(--primary-gray);
+  margin: 0.5em auto;
+}
+
+body section.card-result div div.shadow-div span {
+  color: var(--primary-blue);
+  font-weight: 700;
+}
+
+body section.card-result div div.shadow-div h4 {
+  text-align: center;
 }
 
 body footer {
