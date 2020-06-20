@@ -175,7 +175,10 @@ body section.hero-lg div a:hover {
   text-decoration: none;
 }
 
-
+body section.card-result {
+  margin: 10em 2em 5em 2em ;
+  box-shadow: 5px 5px 15px gray, -5px -5px 15px gray ;
+}
 
 body footer {
   background-color: var(--gray-footer);
