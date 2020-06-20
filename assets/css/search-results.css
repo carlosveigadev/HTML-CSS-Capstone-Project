@@ -121,8 +121,11 @@ body section.results div h3 {
   color: white;
   text-shadow: 2px 2px 2px var(--light-gray);
   font-size: 1.5em;
-  margin: 10em 0;
   padding: 0 1em;
+}
+
+body section.results a:hover {
+  text-decoration: none;
 }
 
 body section.search div button {
