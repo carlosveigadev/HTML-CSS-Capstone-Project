@@ -128,10 +128,11 @@ body section.hero {
   background-size: cover;
 }
 
-body section.hero div h6 {
+body section.hero div h1 {
   line-height: 1.5em;
   margin-top: 6em;
   color: white;
+  font-size: 1.5em;
   font-weight: 700;
   text-shadow: 2px 2px 2px black;
 }
@@ -174,6 +175,8 @@ body section.hero-lg div a:hover {
   text-decoration: none;
 }
 
+
+
 body footer {
   background-color: var(--gray-footer);
   color: var(--primary-gray);
@@ -201,6 +204,10 @@ body footer div.large-footer ul li:nth-child(5) {
 
 body section.search div {
   justify-content: center;
+}
+
+body section.search h1 {
+  font-size: 2em;
 }
 
 body section.results div {
