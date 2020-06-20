@@ -2,26 +2,6 @@ body > * {
   font-family: 'PT Sans', sans-serif;
 }
 
-.bg-orange {
-  background-color: var(--primary-color);
-}
-
-.clr-orange {
-  color: var(--primary-color);
-}
-
-.bg-blue {
-  background-color: var(--primary-blue);
-}
-
-.bg-gray {
-  background-color: var(--primary-gray);
-}
-
-.clr-gray {
-  color: var(--primary-gray);
-}
-
 body nav {
   height: auto;
   background-color: var(--primary-color);
@@ -256,4 +236,47 @@ body footer div.large-footer div div input.button {
 
 .fa-linkedin:hover {
   color: #0077b5;
+}
+
+
+body section.search {
+  background-color: var(--light-gray);
+  margin: 150px 0 50px 0;
+}
+
+body section.search div {
+  justify-content: center;
+}
+
+body section.results div {
+  height: 300px;
+  min-width: 200px;
+  background: url('/assets/images/undraw_stand_out_1oag.svg') no-repeat, var(--primary-color);
+  background-position: center;
+  background-size: contain;
+  margin: 1em 2em;
+}
+
+body section.results div h3 {
+  color: white;
+  text-shadow: 2px 2px 2px var(--light-gray);
+  font-size: 1.5em;
+  padding: 0 1em;
+}
+
+body section.results a:hover {
+  text-decoration: none;
+}
+
+body section.search div button {
+  margin-top: 32px;
+}
+
+body section.search div input[type=text] {
+  min-width: 328px;
+}
+
+body section.hero .anc-btn {
+  background-color: var(--primary-color);
+  color: white;
 }

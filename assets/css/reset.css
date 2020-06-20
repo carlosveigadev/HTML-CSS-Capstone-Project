@@ -15,6 +15,27 @@
 }
 
 
+.bg-orange {
+	background-color: var(--primary-color);
+  }
+  
+  .clr-orange {
+	color: var(--primary-color);
+  }
+  
+  .bg-blue {
+	background-color: var(--primary-blue);
+  }
+  
+  .bg-gray {
+	background-color: var(--primary-gray);
+  }
+  
+  .clr-gray {
+	color: var(--primary-gray);
+  }
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
