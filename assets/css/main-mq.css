@@ -1,9 +1,3 @@
-/* Each of these pages should have versions for 3 different screen sizes:
-
-- mobile: up to 768px
-- tablet: up to 1024px
-- desktop: from 1024px */
-
 @media (min-width: 768px) {
   body nav {
     flex-direction: row;
