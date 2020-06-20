@@ -98,6 +98,7 @@ body section.hero-lg div h4 {
 
 body footer div.large-footer {
   background-color: black;
+  display: none;
 }
 
 body footer div.large-footer ul li a,
@@ -164,6 +165,10 @@ body section.hero-lg div img {
   border-radius: 50%;
 }
 
+body section.results a:hover {
+  text-decoration: none;
+}
+
 body section.hero-lg div a:hover {
   color: var(--gray-footer-btn);
   text-decoration: none;
@@ -172,10 +177,6 @@ body section.hero-lg div a:hover {
 body footer {
   background-color: var(--gray-footer);
   color: var(--primary-gray);
-}
-
-body footer div.large-footer {
-  display: none;
 }
 
 body footer div.large-footer ul li a:hover {
@@ -196,6 +197,19 @@ body footer div.large-footer ul li:nth-child(5) {
   border: 3px solid var(--primary-gray);
   font-size: 40px;
   padding: 0.7em 0;
+}
+
+body section.search div {
+  justify-content: center;
+}
+
+body section.results div {
+  height: 300px;
+  min-width: 200px;
+  background: url('/assets/images/undraw_stand_out_1oag.svg') no-repeat, var(--primary-color);
+  background-position: center;
+  background-size: contain;
+  margin: 1em 2em;
 }
 
 body footer div.large-footer div:nth-child(2) {
@@ -238,23 +252,9 @@ body footer div.large-footer div div input.button {
   color: #0077b5;
 }
 
-
 body section.search {
   background-color: var(--light-gray);
   margin: 150px 0 50px 0;
-}
-
-body section.search div {
-  justify-content: center;
-}
-
-body section.results div {
-  height: 300px;
-  min-width: 200px;
-  background: url('/assets/images/undraw_stand_out_1oag.svg') no-repeat, var(--primary-color);
-  background-position: center;
-  background-size: contain;
-  margin: 1em 2em;
 }
 
 body section.results div h3 {
@@ -264,19 +264,10 @@ body section.results div h3 {
   padding: 0 1em;
 }
 
-body section.results a:hover {
-  text-decoration: none;
-}
-
 body section.search div button {
   margin-top: 32px;
 }
 
 body section.search div input[type=text] {
   min-width: 328px;
-}
-
-body section.hero .anc-btn {
-  background-color: var(--primary-color);
-  color: white;
 }
