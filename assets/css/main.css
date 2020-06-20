@@ -116,6 +116,10 @@ body section.hero-lg div h4 {
   font-weight: 700;
 }
 
+body footer div.large-footer {
+  background-color: black;
+}
+
 body footer div.large-footer ul li a,
 body footer div.large-footer div:nth-child(2) h4 {
   color: white;

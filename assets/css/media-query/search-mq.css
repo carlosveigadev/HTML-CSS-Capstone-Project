@@ -36,7 +36,7 @@
 
   body section.search div input[type=text] {
     min-width: 100px;
-    max-width: 100px;
+    max-width: 150px;
   }
 
   body footer div.large-footer {

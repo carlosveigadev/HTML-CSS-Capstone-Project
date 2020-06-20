@@ -160,6 +160,7 @@ body footer {
 
 body footer div.large-footer {
   display: none;
+  background-color: black;
 }
 
 body footer div.large-footer ul li a:hover {
