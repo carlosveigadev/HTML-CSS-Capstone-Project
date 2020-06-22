@@ -318,3 +318,56 @@ body section.search div button {
 body section.search div input[type=text] {
   min-width: 328px;
 }
+
+@media (min-width: 768px) {
+  body nav {
+    flex-direction: row;
+    height: 100px;
+  }
+
+  body nav div,
+  body nav div span {
+    align-self: center;
+    padding-top: 0;
+  }
+
+  body nav img {
+    padding-left: 0.5em;
+  }
+
+  body section.hero-lg {
+    display: block;
+  }
+
+  body section.hero div h1 {
+    font-size: 2em;
+    margin-top: 2.5em;
+  }
+
+  body section.hero form {
+    min-width: 400px;
+  }
+
+  body section.map-detail .iframe-cont {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body nav div li span {
+    display: inline;
+  }
+
+  body nav div li a:hover {
+    text-decoration: none;
+  }
+
+  body section.search div input[type=text] {
+    min-width: 100px;
+    max-width: 150px;
+  }
+
+  body footer div.large-footer {
+    display: block;
+  }
+}
