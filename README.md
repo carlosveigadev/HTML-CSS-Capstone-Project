@@ -28,7 +28,7 @@ Additional description about the project and its features.
 
 ## Video Link Demo
 
-[Video Demo Link](https://raw.githack.com/wrakc/HTML-CSS-Capstone-Project/feature/main.html)
+[Video Demo Link](https://www.loom.com/share/53c4b3e00c3540569bc09bcc6dd4b55b)
 
 ## Getting Started
 
