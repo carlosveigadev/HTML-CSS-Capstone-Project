@@ -4,15 +4,15 @@
 
 **Main Page**
 <br>
-![Main Page](./images/app_screenshot.png)
+![Main Page](assets/images/app_screenshot.png)
 
 **Search Page**
 <br>
-![Search Page](./images/app_screenshot2.png)
+![Search Page](assets/images/app_screenshot2.png)
 
 **Details Page**
 <br>
-![Details Page](./images/app_screenshot3.png)
+![Details Page](assets/images/app_screenshot3.png)
 
 Additional description about the project and its features.
 
