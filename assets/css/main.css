@@ -236,6 +236,29 @@ body section.results div div {
   margin: 1em 1em;
 }
 
+body section.card-result div div h2 {
+  font-size: 18px;
+}
+
+body section.card-result div div span {
+  color: var(--primary-blue);
+  padding-right: 10px;
+}
+
+body section.map-detail {
+  margin: 1em 2em 1em 2em;
+}
+
+body section.map-detail h3 {
+  letter-spacing: 0.5em;
+  line-height: 2em;
+}
+
+body section.map-detail .iframe-cont {
+  height: 200px;
+}
+
+
 body footer div.large-footer div:nth-child(2) {
   text-align: center;
   color: white;
