@@ -1,57 +1,35 @@
-# Project Name
+# HTML and CSS capstone project.
 
-> One paragraph statement about the project.
+>  This is a solo projects at the end of the of the Microverse Main Technical Curriculum of the HTML and CSS section. It's a real-world-like project, built with business specifications to improve and test the achievement of technical and soft skills gained during this section of the program.
 
-![screenshot](./app_screenshot.png)
+![Main Page](./app_screenshot.png)
+![Search Page](./app_screenshot2.png)
+![Details Page](./app_screenshot3.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Bootstrap.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/wrakc/HTML-CSS-Capstone-Project/feature/main.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**Just access the Live Demo link and check the webpage, you can navigate through the main page, the search page and the details of the search page.**
 
 ## Authors
 
-👤 **Author1**
+👤 **Carlos Veiga**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/wrakc)
+- Twitter: [@twitterhandle](https://twitter.com/carlosveig)
+- Linkedin: [linkedin](https://linkedin.com/chveiga)
 
 ## 🤝 Contributing
 
@@ -65,9 +43,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse for the opportunity;
+- Design idea by Mathew Njuguna (https://www.behance.net/mathewnjuguna) and others on Behance;
+- unDraw (https://undraw.co/) for the logo;
+- Stocksnap (https://stocksnap.io/) for the images;
+- The Minskins fot the support.
 
 ## 📝 License
 
