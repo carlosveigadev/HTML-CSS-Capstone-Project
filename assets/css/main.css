@@ -68,27 +68,6 @@ body nav div a:hover {
   color: var(--gray-light);
 }
 
-body nav div ul {
-  display: flex;
-  justify-content: center;
-  margin: 0.5em;
-}
-
-body nav div li span {
-  display: none;
-  padding-left: 15px;
-}
-
-body nav div span:hover {
-  cursor: pointer;
-  color: var(--primary-gray);
-}
-
-body section.hero .anc-btn {
-  background-color: var(--primary-color);
-  color: white;
-}
-
 body section.hero-lg div a {
   background-color: white;
 }
@@ -97,18 +76,25 @@ body nav div li a:hover {
   color: var(--primary-gray);
 }
 
-body section.hero-lg div h4 {
+body section.carousel-port div div a {
+  position: absolute;
+  bottom: 22%;
+  margin: 0 5em;
   font-weight: 700;
 }
 
-body footer div.large-footer {
-  background-color: black;
-  display: none;
+body section.explanation-section i,
+body section.search h1 {
+  font-size: 2em;
 }
 
 body section.card-result div h1,
 body section.explanation-section h4 {
   font-size: 2em;
+  font-weight: 700;
+}
+
+body section.hero-lg div h4 {
   font-weight: 700;
 }
 
@@ -132,13 +118,6 @@ body footer div.large-footer div div h4 {
   padding: 1em 0;
 }
 
-body section.carousel-port div div a {
-  position: absolute;
-  bottom: 22%;
-  margin: 0 5em;
-  font-weight: 700;
-}
-
 body footer div.large-footer ul li a,
 body footer div.large-footer div:nth-child(2) h4 {
   color: white;
@@ -157,6 +136,49 @@ body section.hero a:hover {
   color: white;
 }
 
+body section.results a:hover {
+  text-decoration: none;
+}
+
+body section.hero-lg div a:hover {
+  color: var(--gray-footer-btn);
+  text-decoration: none;
+}
+
+body section.carousel-port div div a:hover {
+  text-decoration: none;
+}
+
+body section.hero div form div.search-form a {
+  padding-top: 10px;
+}
+
+body nav div ul {
+  display: flex;
+  justify-content: center;
+  margin: 0.5em;
+}
+
+body nav div li span {
+  display: none;
+  padding-left: 15px;
+}
+
+body nav div span:hover {
+  cursor: pointer;
+  color: var(--primary-gray);
+}
+
+body section.hero .anc-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+body footer div.large-footer {
+  background-color: black;
+  display: none;
+}
+
 body section.hero {
   margin-top: 100px;
   height: 500px;
@@ -164,11 +186,6 @@ body section.hero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-body section.explanation-section i,
-body section.search h1 {
-  font-size: 2em;
 }
 
 body section.hero div h1 {
@@ -200,19 +217,6 @@ body section.carousel-port div div img {
   padding: 1em;
 }
 
-body section.results a:hover {
-  text-decoration: none;
-}
-
-body section.hero-lg div a:hover {
-  color: var(--gray-footer-btn);
-  text-decoration: none;
-}
-
-body section.carousel-port div div a:hover {
-  text-decoration: none;
-}
-
 body section.hero-lg {
   display: none;
   color: white;
@@ -233,9 +237,24 @@ body section.card-result div div span {
   padding-right: 10px;
 }
 
+body section.results h2 {
+  font-size: 32px;
+}
+
+body section.map-detail h3 {
+  letter-spacing: 0.5em;
+  line-height: 2em;
+}
+
+body section.map-detail h2,
+body section.map-detail div h3,
+body section.card-result div div h2 {
+  font-size: 1.5em;
+}
+
 body section.card-result div div h2 {
   padding: 0.5em 0;
-} 
+}
 
 body section.card-result div div.shadow-div span {
   color: var(--primary-blue);
@@ -277,10 +296,6 @@ body section.search div {
   justify-content: center;
 }
 
-body section.results h2 {
-  font-size: 32px;
-}
-
 body section.results div div {
   height: 300px;
   min-width: 200px;
@@ -290,19 +305,8 @@ body section.results div div {
   margin: 1em 1em;
 }
 
-body section.map-detail h2,
-body section.map-detail div h3,
-body section.card-result div div h2 {
-  font-size: 1.5em;
-}
-
 body section.map-detail {
   margin: 1em 2em 1em 2em;
-}
-
-body section.map-detail h3 {
-  letter-spacing: 0.5em;
-  line-height: 2em;
 }
 
 body section.map-detail .iframe-cont {
