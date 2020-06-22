@@ -134,7 +134,7 @@ body footer div.large-footer div div h4 {
 
 body section.carousel-port div div a {
   position: absolute;
-  bottom: 20%;
+  bottom: 22%;
   margin: 0 5em;
   font-weight: 700;
 }
@@ -197,6 +197,7 @@ body section.hero-lg div img {
 
 body section.carousel-port div div img {
   border-radius: 50%;
+  padding: 1em;
 }
 
 body section.results a:hover {
