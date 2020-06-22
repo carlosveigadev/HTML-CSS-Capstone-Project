@@ -101,16 +101,15 @@ body footer div.large-footer {
   display: none;
 }
 
+body footer div.large-footer div div h4 {
+  padding: 1em 0;
+}
+
 body footer div.large-footer ul li a,
 body footer div.large-footer div:nth-child(2) h4 {
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
-}
-
-
-body footer div.large-footer div div h4 {
-  padding: 1em 0;
 }
 
 body footer div.large-footer div div a {
@@ -131,6 +130,10 @@ body section.hero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+body section.search h1 {
+  font-size: 2em;
 }
 
 body section.hero div h1 {
@@ -190,6 +193,11 @@ body section.card-result div div.shadow-div {
   margin: 0.5em auto;
 }
 
+body section.card-result div div span {
+  color: var(--primary-blue);
+  padding-right: 10px;
+}
+
 body section.card-result div div.shadow-div span {
   color: var(--primary-blue);
   font-weight: 700;
@@ -230,10 +238,6 @@ body section.search div {
   justify-content: center;
 }
 
-body section.search h1 {
-  font-size: 2em;
-}
-
 body section.results h2 {
   font-size: 32px;
 }
@@ -251,11 +255,6 @@ body section.card-result div div h2 {
   font-size: 18px;
 }
 
-body section.card-result div div span {
-  color: var(--primary-blue);
-  padding-right: 10px;
-}
-
 body section.map-detail {
   margin: 1em 2em 1em 2em;
 }
@@ -268,7 +267,6 @@ body section.map-detail h3 {
 body section.map-detail .iframe-cont {
   height: 200px;
 }
-
 
 body footer div.large-footer div:nth-child(2) {
   text-align: center;
