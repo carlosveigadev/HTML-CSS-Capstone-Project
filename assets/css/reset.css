@@ -1,13 +1,13 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
 :root {
-    --primary-color: #d35649;
-    --primary-orange: #e17f65;
-    --primary-gray: #98a5a5;
-    --primary-blue: #509bd7;
+  --primary-color: #d35649;
+  --primary-orange: #e17f65;
+  --primary-gray: #98a5a5;
+  --primary-blue: #509bd7;
 	--gray-footer: #1f1f1f;
 	--gray-footer-btn: #444444;
 	--primary-purple: #575a89;
@@ -18,7 +18,7 @@
 .bg-orange {
 	background-color: var(--primary-color);
   }
-  
+
   .clr-orange {
 	color: var(--primary-color);
   }
@@ -26,15 +26,15 @@
   .clr-blue {
 	color: var(--primary-blue);
   }
-  
+
   .bg-blue {
 	background-color: var(--primary-blue);
   }
-  
+
   .bg-gray {
 	background-color: var(--primary-gray);
   }
-  
+
   .clr-gray {
 	color: var(--primary-gray);
   }
@@ -48,8 +48,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -58,10 +58,10 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	
+
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -83,4 +83,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
