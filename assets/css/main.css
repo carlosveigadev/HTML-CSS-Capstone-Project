@@ -227,13 +227,13 @@ body section.search h1 {
   font-size: 2em;
 }
 
-body section.results div {
+body section.results div div {
   height: 300px;
   min-width: 200px;
   background: url('/assets/images/undraw_stand_out_1oag.svg') no-repeat, var(--primary-color);
   background-position: center;
   background-size: contain;
-  margin: 1em 2em;
+  margin: 1em 1em;
 }
 
 body footer div.large-footer div:nth-child(2) {
