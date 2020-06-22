@@ -233,6 +233,10 @@ body section.card-result div div span {
   padding-right: 10px;
 }
 
+body section.card-result div div h2 {
+  padding: 0.5em 0;
+} 
+
 body section.card-result div div.shadow-div span {
   color: var(--primary-blue);
   font-weight: 700;
