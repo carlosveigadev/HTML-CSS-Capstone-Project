@@ -163,6 +163,32 @@ body section.explanation-section i {
   font-size: 2em;
 }
 
+body section.carousel-port div div img {
+  border-radius: 50%;
+}
+
+body section.carousel-port div div h4,
+body section.carousel-port div div h5 {
+  position: absolute;
+  bottom: 25%;
+  padding: 0 5em;
+  margin: 2em 0;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: 700;
+}
+
+body section.carousel-port div div a {
+  position: absolute;
+  bottom: 20%;
+  margin: 0 5em;
+  font-weight: 700;
+}
+
+body section.carousel-port div div a:hover {
+  text-decoration: none;
+}
+
 body section.hero-lg {
   display: none;
   color: white;
@@ -352,6 +378,10 @@ body section.search div input[type=text] {
 
   body section.hero-lg {
     display: block;
+  }
+
+  body section.carousel-port {
+    display: none;
   }
 
   body section.hero div h1 {
