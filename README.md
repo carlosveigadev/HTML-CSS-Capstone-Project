@@ -55,7 +55,7 @@ Give a ⭐️ if you like this project!
 - Design idea by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and others on Behance;
 - [unDraw](https://undraw.co/) for the logo;
 - [Stocksnap](https://stocksnap.io/) for the images;
-- The Minskins fot the support.
+- The Minskins for the support.
 
 ## 📝 License
 
