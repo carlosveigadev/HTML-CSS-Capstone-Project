@@ -108,6 +108,11 @@ body footer div.large-footer div:nth-child(2) h4 {
   font-weight: 700;
 }
 
+
+body footer div.large-footer div div h4 {
+  padding: 1em 0;
+}
+
 body footer div.large-footer div div a {
   color: var(--primary-color);
 }
@@ -192,6 +197,8 @@ body section.card-result div div.shadow-div span {
 
 body section.card-result div div.shadow-div h4 {
   text-align: center;
+  padding: 1em 0;
+  font-size: 1.3em;
 }
 
 body footer {
@@ -225,6 +232,10 @@ body section.search div {
 
 body section.search h1 {
   font-size: 2em;
+}
+
+body section.results h2 {
+  font-size: 32px;
 }
 
 body section.results div div {
@@ -277,6 +288,7 @@ body footer div.large-footer div div input.button {
   background-color: var(--gray-footer-btn);
   border: 1px solid var(--primary-gray);
   font-weight: 700;
+  padding: 11px 0;
 }
 
 .fa-facebook-square:hover {
@@ -312,7 +324,7 @@ body section.results div h3 {
 }
 
 body section.search div button {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 body section.search div input[type=text] {
@@ -369,5 +381,6 @@ body section.search div input[type=text] {
 
   body footer div.large-footer {
     display: block;
+    padding-bottom: 2em;
   }
 }
