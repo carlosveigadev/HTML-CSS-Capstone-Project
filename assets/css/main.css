@@ -106,6 +106,12 @@ body footer div.large-footer {
   display: none;
 }
 
+body section.card-result div h1,
+body section.explanation-section h4 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
 body section.explanation-section h5 {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
@@ -160,6 +166,7 @@ body section.hero {
   background-size: cover;
 }
 
+body section.explanation-section i,
 body section.search h1 {
   font-size: 2em;
 }
@@ -180,10 +187,6 @@ body section.hero div form {
 
 body section.hero div form input {
   height: 40px;
-}
-
-body section.explanation-section i {
-  font-size: 2em;
 }
 
 body section.hero-lg div img {
@@ -282,8 +285,10 @@ body section.results div div {
   margin: 1em 1em;
 }
 
+body section.map-detail h2,
+body section.map-detail div h3,
 body section.card-result div div h2 {
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 body section.map-detail {
