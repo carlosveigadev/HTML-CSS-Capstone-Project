@@ -45,6 +45,11 @@ body footer div ul li a {
   padding: 0 1em;
 }
 
+body section.hero div form div.search-form {
+  display: flex;
+  flex-direction: column;
+}
+
 body section.hero a,
 body section.hero div form input.button {
   background-color: var(--primary-color);
@@ -405,6 +410,19 @@ body section.search div input[type=text] {
 
   body nav div li a:hover {
     text-decoration: none;
+  }
+
+  body section.hero div form {
+    min-width: 700px;
+  }
+
+  body section.hero div form input {
+    width: 700px;
+    margin-right: -5px;
+  }
+
+  body section.hero div form div.search-form {
+    flex-direction: row;
   }
 
   body section.search div input[type=text] {
