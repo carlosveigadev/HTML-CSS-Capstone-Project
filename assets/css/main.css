@@ -29,6 +29,11 @@
 	color: var(--primary-gray);
   }
 
+li,
+ul,
+a {
+  list-style-type: none;
+}
 
 > * {
   font-family: 'PT Sans', sans-serif;
