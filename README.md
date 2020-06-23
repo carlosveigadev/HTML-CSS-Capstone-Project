@@ -32,7 +32,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**Just access the Live Demo link and check the webpage, you can navigate through the main page, the search page and the details of the search page.**
+**Clone the repository clicking on "Clone or Download" and copy the given link. In your terminal, cd to the folder where you want the project to be and use "git clone "paste the clone link", after that you can locally go to the folder where you cloned the repository and access the website.**
 
 ## Authors
 
