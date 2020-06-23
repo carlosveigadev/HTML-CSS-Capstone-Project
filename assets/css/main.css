@@ -423,39 +423,32 @@ section.search div input[type=text] {
     height: 100px;
   }
 
-
   nav div,
   nav div span {
     align-self: center;
     padding-top: 0;
   }
 
-
   nav img {
     padding-left: 0.5em;
   }
-
 
   section.hero-lg {
     display: block;
   }
 
-
   section.carousel-port {
     display: none;
   }
-
 
   section.hero div h1 {
     font-size: 2em;
     margin-top: 2.5em;
   }
 
-
   section.hero form {
     min-width: 400px;
   }
-
 
   section.map-detail .iframe-cont {
     height: 500px;
@@ -467,33 +460,27 @@ section.search div input[type=text] {
     display: inline;
   }
 
-
   nav div li a:hover {
     text-decoration: none;
   }
 
-
   section.hero div form {
     min-width: 700px;
   }
-
 
   section.hero div form input {
     width: 700px;
     margin-right: -5px;
   }
 
-
   section.hero div form div.search-form {
     flex-direction: row;
   }
-
 
   section.search div input[type=text] {
     min-width: 100px;
     max-width: 150px;
   }
-
 
   footer div.large-footer {
     display: block;
