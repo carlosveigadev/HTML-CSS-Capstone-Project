@@ -2,32 +2,31 @@
   --primary-color: #d35649;
   --primary-gray: #98a5a5;
   --primary-blue: #509bd7;
-	--gray-footer: #1f1f1f;
-	--gray-footer-btn: #444444;
-	--primary-purple: #575a89;
-	--light-gray: #eeeeee;
+  --gray-footer: #1f1f1f;
+  --gray-footer-btn: #444;
+  --primary-purple: #575a89;
+  --light-gray: #eee;
 }
 
-
 .bg-orange {
-	background-color: var(--primary-color);
-  }
+  background-color: var(--primary-color);
+}
 
-  .clr-orange {
-	color: var(--primary-color);
-  }
+.clr-orange {
+  color: var(--primary-color);
+}
 
-  .bg-blue {
-	background-color: var(--primary-blue);
-  }
+.bg-blue {
+  background-color: var(--primary-blue);
+}
 
-  .bg-gray {
-	background-color: var(--primary-gray);
-  }
+.bg-gray {
+  background-color: var(--primary-gray);
+}
 
-  .clr-gray {
-	color: var(--primary-gray);
-  }
+.clr-gray {
+  color: var(--primary-gray);
+}
 
 li,
 ul,
@@ -38,7 +37,6 @@ a {
 > * {
   font-family: 'PT Sans', sans-serif;
 }
-
 
 nav {
   height: auto;
@@ -54,11 +52,9 @@ nav {
   z-index: 1;
 }
 
-
 nav img {
   width: 100px;
 }
-
 
 nav div:first-child {
   display: flex;
@@ -67,13 +63,11 @@ nav div:first-child {
   justify-content: center;
 }
 
-
 nav div a {
   padding-top: 0.3em;
   padding-left: 0.5em;
   color: white;
 }
-
 
 nav div li a {
   justify-content: space-between;
@@ -82,21 +76,17 @@ nav div li a {
   color: white;
 }
 
-
 footer div ul li a {
   color: var(--primary-gray);
   padding: 0 1em;
 }
-
 
 section.hero div form div.search-form {
   display: flex;
   flex-direction: column;
 }
 
-
 section.hero a,
-
 section.hero div form input.button {
   background-color: var(--primary-color);
   color: white;
@@ -104,28 +94,23 @@ section.hero div form input.button {
   border: 0;
 }
 
-
 section.hero a {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.9);
   transition: 1s ease-in-out;
 }
 
-
 nav div a:hover {
   color: var(--gray-light);
 }
-
 
 section.hero-lg div a {
   background-color: white;
 }
 
-
 nav div li a:hover {
   color: var(--primary-gray);
 }
-
 
 section.carousel-port div div a {
   position: absolute;
@@ -134,35 +119,27 @@ section.carousel-port div div a {
   font-weight: 700;
 }
 
-
 section.explanation-section i,
-
 section.search h1 {
   font-size: 2em;
 }
 
-
 section.card-result div h1,
-
 section.explanation-section h4 {
   font-size: 2em;
   font-weight: 700;
 }
 
-
 section.hero-lg div h4 {
   font-weight: 700;
 }
-
 
 section.explanation-section h5 {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
 }
 
-
 section.carousel-port div div h4,
-
 section.carousel-port div div h5 {
   position: absolute;
   bottom: 25%;
@@ -173,25 +150,20 @@ section.carousel-port div div h5 {
   font-weight: 700;
 }
 
-
 footer div.large-footer div div h4 {
   padding: 1em 0;
 }
 
-
 footer div.large-footer ul li a,
-
 footer div.large-footer div:nth-child(2) h4 {
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
 }
 
-
 footer div.large-footer div div a {
   color: var(--primary-color);
 }
-
 
 section.hero a:hover {
   transition: 1s ease-in-out;
@@ -200,27 +172,22 @@ section.hero a:hover {
   color: white;
 }
 
-
 section.results a:hover {
   text-decoration: none;
 }
-
 
 section.hero-lg div a:hover {
   color: var(--gray-footer-btn);
   text-decoration: none;
 }
 
-
 section.carousel-port div div a:hover {
   text-decoration: none;
 }
 
-
 section.hero div form div.search-form a {
   padding-top: 10px;
 }
-
 
 nav div ul {
   display: flex;
@@ -228,30 +195,25 @@ nav div ul {
   margin: 0.5em;
 }
 
-
 nav div li span {
   display: none;
   padding-left: 15px;
 }
-
 
 nav div span:hover {
   cursor: pointer;
   color: var(--primary-gray);
 }
 
-
 section.hero .anc-btn {
   background-color: var(--primary-color);
   color: white;
 }
 
-
 footer div.large-footer {
   background-color: black;
   display: none;
 }
-
 
 section.hero {
   margin-top: 100px;
@@ -262,7 +224,6 @@ section.hero {
   background-size: cover;
 }
 
-
 section.hero div h1 {
   line-height: 1.5em;
   margin-top: 6em;
@@ -272,17 +233,14 @@ section.hero div h1 {
   text-shadow: 2px 2px 2px black;
 }
 
-
 section.hero div form {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.9);
 }
 
-
 section.hero div form input {
   height: 40px;
 }
-
 
 section.hero-lg div img {
   max-width: 300px;
@@ -290,67 +248,54 @@ section.hero-lg div img {
   border-radius: 50%;
 }
 
-
 section.carousel-port div div img {
   border-radius: 50%;
   padding: 1em;
 }
-
 
 section.hero-lg {
   display: none;
   color: white;
 }
 
-
 section.card-result {
   margin: 10em 2em 5em 2em;
   box-shadow: 5px 5px 15px var(--primary-gray), -5px -5px 15px var(--primary-gray);
 }
-
 
 section.card-result div div.shadow-div {
   box-shadow: 1px 1px 5px var(--primary-gray), -1px -1px 5px var(--primary-gray);
   margin: 0.5em auto;
 }
 
-
 section.card-result div div span {
   color: var(--primary-blue);
   padding-right: 10px;
 }
 
-
 section.results h2 {
   font-size: 32px;
 }
-
 
 section.map-detail h3 {
   letter-spacing: 0.5em;
   line-height: 2em;
 }
 
-
 section.map-detail h2,
-
 section.map-detail div h3,
-
 section.card-result div div h2 {
   font-size: 1.5em;
 }
-
 
 section.card-result div div h2 {
   padding: 0.5em 0;
 }
 
-
 section.card-result div div.shadow-div span {
   color: var(--primary-blue);
   font-weight: 700;
 }
-
 
 section.card-result div div.shadow-div h4 {
   text-align: center;
@@ -358,12 +303,10 @@ section.card-result div div.shadow-div h4 {
   font-size: 1.3em;
 }
 
-
 footer {
   background-color: var(--gray-footer);
   color: var(--primary-gray);
 }
-
 
 footer div.large-footer ul li a:hover {
   color: var(--primary-gray);
@@ -372,7 +315,6 @@ footer div.large-footer ul li a:hover {
   text-decoration: none;
 }
 
-
 footer div.large-footer ul li {
   align-self: center;
   padding: 1em 0;
@@ -380,18 +322,15 @@ footer div.large-footer ul li {
   border-bottom: 2px solid var(--primary-gray);
 }
 
-
 footer div.large-footer ul li:nth-child(5) {
   border: 3px solid var(--primary-gray);
   font-size: 40px;
   padding: 0.7em 0;
 }
 
-
 section.search div {
   justify-content: center;
 }
-
 
 section.results div div {
   height: 300px;
@@ -402,28 +341,23 @@ section.results div div {
   margin: 1em 1em;
 }
 
-
 section.map-detail {
   margin: 1em 2em 1em 2em;
 }
 
-
 section.map-detail .iframe-cont {
   height: 200px;
 }
-
 
 section.map-detail .iframe-cont iframe {
   width: 100%;
   height: 100%;
 }
 
-
 footer div.large-footer div:nth-child(2) {
   text-align: center;
   color: white;
 }
-
 
 footer div.large-footer div div input {
   background-color: black;
@@ -433,7 +367,6 @@ footer div.large-footer div div input {
   margin-left: -5px;
   padding: 8px;
 }
-
 
 footer div.large-footer div div input.button {
   background-color: var(--gray-footer-btn);
@@ -462,12 +395,10 @@ footer div.large-footer div div input.button {
   color: #0077b5;
 }
 
-
 section.search {
   background-color: var(--light-gray);
   margin: 150px 0 50px 0;
 }
-
 
 section.results div h3 {
   color: white;
@@ -476,97 +407,92 @@ section.results div h3 {
   padding: 0 1em;
 }
 
-
 section.search div button {
   margin-top: 16px;
 }
-
 
 section.search div input[type=text] {
   min-width: 328px;
 }
 
 @media (min-width: 768px) {
-  
   nav {
     flex-direction: row;
     height: 100px;
   }
 
-  
+
   nav div,
-  
   nav div span {
     align-self: center;
     padding-top: 0;
   }
 
-  
+
   nav img {
     padding-left: 0.5em;
   }
 
-  
+
   section.hero-lg {
     display: block;
   }
 
-  
+
   section.carousel-port {
     display: none;
   }
 
-  
+
   section.hero div h1 {
     font-size: 2em;
     margin-top: 2.5em;
   }
 
-  
+
   section.hero form {
     min-width: 400px;
   }
 
-  
+
   section.map-detail .iframe-cont {
     height: 500px;
   }
 }
 
 @media (min-width: 1024px) {
-  
   nav div li span {
     display: inline;
   }
 
-  
+
   nav div li a:hover {
     text-decoration: none;
   }
 
-  
+
   section.hero div form {
     min-width: 700px;
   }
 
-  
+
   section.hero div form input {
     width: 700px;
     margin-right: -5px;
   }
 
-  
+
   section.hero div form div.search-form {
     flex-direction: row;
   }
 
-  
+
   section.search div input[type=text] {
     min-width: 100px;
     max-width: 150px;
   }
 
-  
+
   footer div.large-footer {
     display: block;
     padding-bottom: 2em;
