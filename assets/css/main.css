@@ -1,8 +1,41 @@
-body > * {
+:root {
+  --primary-color: #d35649;
+  --primary-gray: #98a5a5;
+  --primary-blue: #509bd7;
+	--gray-footer: #1f1f1f;
+	--gray-footer-btn: #444444;
+	--primary-purple: #575a89;
+	--light-gray: #eeeeee;
+}
+
+
+.bg-orange {
+	background-color: var(--primary-color);
+  }
+
+  .clr-orange {
+	color: var(--primary-color);
+  }
+
+  .bg-blue {
+	background-color: var(--primary-blue);
+  }
+
+  .bg-gray {
+	background-color: var(--primary-gray);
+  }
+
+  .clr-gray {
+	color: var(--primary-gray);
+  }
+
+
+> * {
   font-family: 'PT Sans', sans-serif;
 }
 
-body nav {
+
+nav {
   height: auto;
   background-color: var(--primary-color);
   display: flex;
@@ -16,95 +49,116 @@ body nav {
   z-index: 1;
 }
 
-body nav img {
+
+nav img {
   width: 100px;
 }
 
-body nav div:first-child {
+
+nav div:first-child {
   display: flex;
   font-size: 2em;
   text-shadow: 2px 2px var(--primary-purple);
   justify-content: center;
 }
 
-body nav div a {
+
+nav div a {
   padding-top: 0.3em;
   padding-left: 0.5em;
   color: white;
 }
 
-body nav div li a {
+
+nav div li a {
   justify-content: space-between;
   text-decoration: none;
   padding: 0.5em 1.6em;
   color: white;
 }
 
-body footer div ul li a {
+
+footer div ul li a {
   color: var(--primary-gray);
   padding: 0 1em;
 }
 
-body section.hero div form div.search-form {
+
+section.hero div form div.search-form {
   display: flex;
   flex-direction: column;
 }
 
-body section.hero a,
-body section.hero div form input.button {
+
+section.hero a,
+
+section.hero div form input.button {
   background-color: var(--primary-color);
   color: white;
   font-weight: 700;
   border: 0;
 }
 
-body section.hero a {
+
+section.hero a {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.9);
   transition: 1s ease-in-out;
 }
 
-body nav div a:hover {
+
+nav div a:hover {
   color: var(--gray-light);
 }
 
-body section.hero-lg div a {
+
+section.hero-lg div a {
   background-color: white;
 }
 
-body nav div li a:hover {
+
+nav div li a:hover {
   color: var(--primary-gray);
 }
 
-body section.carousel-port div div a {
+
+section.carousel-port div div a {
   position: absolute;
   bottom: 22%;
   margin: 0 5em;
   font-weight: 700;
 }
 
-body section.explanation-section i,
-body section.search h1 {
+
+section.explanation-section i,
+
+section.search h1 {
   font-size: 2em;
 }
 
-body section.card-result div h1,
-body section.explanation-section h4 {
+
+section.card-result div h1,
+
+section.explanation-section h4 {
   font-size: 2em;
   font-weight: 700;
 }
 
-body section.hero-lg div h4 {
+
+section.hero-lg div h4 {
   font-weight: 700;
 }
 
-body section.explanation-section h5 {
+
+section.explanation-section h5 {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
 }
 
-body section.carousel-port div div h4,
-body section.carousel-port div div h5 {
+
+section.carousel-port div div h4,
+
+section.carousel-port div div h5 {
   position: absolute;
   bottom: 25%;
   padding: 0 5em;
@@ -114,72 +168,87 @@ body section.carousel-port div div h5 {
   font-weight: 700;
 }
 
-body footer div.large-footer div div h4 {
+
+footer div.large-footer div div h4 {
   padding: 1em 0;
 }
 
-body footer div.large-footer ul li a,
-body footer div.large-footer div:nth-child(2) h4 {
+
+footer div.large-footer ul li a,
+
+footer div.large-footer div:nth-child(2) h4 {
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
 }
 
-body footer div.large-footer div div a {
+
+footer div.large-footer div div a {
   color: var(--primary-color);
 }
 
-body section.hero a:hover {
+
+section.hero a:hover {
   transition: 1s ease-in-out;
   background: var(--primary-color);
   text-decoration: none;
   color: white;
 }
 
-body section.results a:hover {
+
+section.results a:hover {
   text-decoration: none;
 }
 
-body section.hero-lg div a:hover {
+
+section.hero-lg div a:hover {
   color: var(--gray-footer-btn);
   text-decoration: none;
 }
 
-body section.carousel-port div div a:hover {
+
+section.carousel-port div div a:hover {
   text-decoration: none;
 }
 
-body section.hero div form div.search-form a {
+
+section.hero div form div.search-form a {
   padding-top: 10px;
 }
 
-body nav div ul {
+
+nav div ul {
   display: flex;
   justify-content: center;
   margin: 0.5em;
 }
 
-body nav div li span {
+
+nav div li span {
   display: none;
   padding-left: 15px;
 }
 
-body nav div span:hover {
+
+nav div span:hover {
   cursor: pointer;
   color: var(--primary-gray);
 }
 
-body section.hero .anc-btn {
+
+section.hero .anc-btn {
   background-color: var(--primary-color);
   color: white;
 }
 
-body footer div.large-footer {
+
+footer div.large-footer {
   background-color: black;
   display: none;
 }
 
-body section.hero {
+
+section.hero {
   margin-top: 100px;
   height: 500px;
   background-image: url("../images/group-1.jpg");
@@ -188,7 +257,8 @@ body section.hero {
   background-size: cover;
 }
 
-body section.hero div h1 {
+
+section.hero div h1 {
   line-height: 1.5em;
   margin-top: 6em;
   color: white;
@@ -197,106 +267,128 @@ body section.hero div h1 {
   text-shadow: 2px 2px 2px black;
 }
 
-body section.hero div form {
+
+section.hero div form {
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.9);
 }
 
-body section.hero div form input {
+
+section.hero div form input {
   height: 40px;
 }
 
-body section.hero-lg div img {
+
+section.hero-lg div img {
   max-width: 300px;
   height: 300px;
   border-radius: 50%;
 }
 
-body section.carousel-port div div img {
+
+section.carousel-port div div img {
   border-radius: 50%;
   padding: 1em;
 }
 
-body section.hero-lg {
+
+section.hero-lg {
   display: none;
   color: white;
 }
 
-body section.card-result {
+
+section.card-result {
   margin: 10em 2em 5em 2em;
   box-shadow: 5px 5px 15px var(--primary-gray), -5px -5px 15px var(--primary-gray);
 }
 
-body section.card-result div div.shadow-div {
+
+section.card-result div div.shadow-div {
   box-shadow: 1px 1px 5px var(--primary-gray), -1px -1px 5px var(--primary-gray);
   margin: 0.5em auto;
 }
 
-body section.card-result div div span {
+
+section.card-result div div span {
   color: var(--primary-blue);
   padding-right: 10px;
 }
 
-body section.results h2 {
+
+section.results h2 {
   font-size: 32px;
 }
 
-body section.map-detail h3 {
+
+section.map-detail h3 {
   letter-spacing: 0.5em;
   line-height: 2em;
 }
 
-body section.map-detail h2,
-body section.map-detail div h3,
-body section.card-result div div h2 {
+
+section.map-detail h2,
+
+section.map-detail div h3,
+
+section.card-result div div h2 {
   font-size: 1.5em;
 }
 
-body section.card-result div div h2 {
+
+section.card-result div div h2 {
   padding: 0.5em 0;
 }
 
-body section.card-result div div.shadow-div span {
+
+section.card-result div div.shadow-div span {
   color: var(--primary-blue);
   font-weight: 700;
 }
 
-body section.card-result div div.shadow-div h4 {
+
+section.card-result div div.shadow-div h4 {
   text-align: center;
   padding: 1em 0;
   font-size: 1.3em;
 }
 
-body footer {
+
+footer {
   background-color: var(--gray-footer);
   color: var(--primary-gray);
 }
 
-body footer div.large-footer ul li a:hover {
+
+footer div.large-footer ul li a:hover {
   color: var(--primary-gray);
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   text-decoration: none;
 }
 
-body footer div.large-footer ul li {
+
+footer div.large-footer ul li {
   align-self: center;
   padding: 1em 0;
   border-top: 2px solid var(--primary-gray);
   border-bottom: 2px solid var(--primary-gray);
 }
 
-body footer div.large-footer ul li:nth-child(5) {
+
+footer div.large-footer ul li:nth-child(5) {
   border: 3px solid var(--primary-gray);
   font-size: 40px;
   padding: 0.7em 0;
 }
 
-body section.search div {
+
+section.search div {
   justify-content: center;
 }
 
-body section.results div div {
+
+section.results div div {
   height: 300px;
   min-width: 200px;
   background: url('../images/undraw_stand_out_1oag.svg') no-repeat, var(--primary-color);
@@ -305,25 +397,30 @@ body section.results div div {
   margin: 1em 1em;
 }
 
-body section.map-detail {
+
+section.map-detail {
   margin: 1em 2em 1em 2em;
 }
 
-body section.map-detail .iframe-cont {
+
+section.map-detail .iframe-cont {
   height: 200px;
 }
 
-body section.map-detail .iframe-cont iframe {
+
+section.map-detail .iframe-cont iframe {
   width: 100%;
   height: 100%;
 }
 
-body footer div.large-footer div:nth-child(2) {
+
+footer div.large-footer div:nth-child(2) {
   text-align: center;
   color: white;
 }
 
-body footer div.large-footer div div input {
+
+footer div.large-footer div div input {
   background-color: black;
   color: white;
   font-size: 1em;
@@ -332,7 +429,8 @@ body footer div.large-footer div div input {
   padding: 8px;
 }
 
-body footer div.large-footer div div input.button {
+
+footer div.large-footer div div input.button {
   background-color: var(--gray-footer-btn);
   border: 1px solid var(--primary-gray);
   font-weight: 700;
@@ -359,92 +457,112 @@ body footer div.large-footer div div input.button {
   color: #0077b5;
 }
 
-body section.search {
+
+section.search {
   background-color: var(--light-gray);
   margin: 150px 0 50px 0;
 }
 
-body section.results div h3 {
+
+section.results div h3 {
   color: white;
   text-shadow: 2px 2px 2px var(--light-gray);
   font-size: 1.5em;
   padding: 0 1em;
 }
 
-body section.search div button {
+
+section.search div button {
   margin-top: 16px;
 }
 
-body section.search div input[type=text] {
+
+section.search div input[type=text] {
   min-width: 328px;
 }
 
 @media (min-width: 768px) {
-  body nav {
+  
+  nav {
     flex-direction: row;
     height: 100px;
   }
 
-  body nav div,
-  body nav div span {
+  
+  nav div,
+  
+  nav div span {
     align-self: center;
     padding-top: 0;
   }
 
-  body nav img {
+  
+  nav img {
     padding-left: 0.5em;
   }
 
-  body section.hero-lg {
+  
+  section.hero-lg {
     display: block;
   }
 
-  body section.carousel-port {
+  
+  section.carousel-port {
     display: none;
   }
 
-  body section.hero div h1 {
+  
+  section.hero div h1 {
     font-size: 2em;
     margin-top: 2.5em;
   }
 
-  body section.hero form {
+  
+  section.hero form {
     min-width: 400px;
   }
 
-  body section.map-detail .iframe-cont {
+  
+  section.map-detail .iframe-cont {
     height: 500px;
   }
 }
 
 @media (min-width: 1024px) {
-  body nav div li span {
+  
+  nav div li span {
     display: inline;
   }
 
-  body nav div li a:hover {
+  
+  nav div li a:hover {
     text-decoration: none;
   }
 
-  body section.hero div form {
+  
+  section.hero div form {
     min-width: 700px;
   }
 
-  body section.hero div form input {
+  
+  section.hero div form input {
     width: 700px;
     margin-right: -5px;
   }
 
-  body section.hero div form div.search-form {
+  
+  section.hero div form div.search-form {
     flex-direction: row;
   }
 
-  body section.search div input[type=text] {
+  
+  section.search div input[type=text] {
     min-width: 100px;
     max-width: 150px;
   }
 
-  body footer div.large-footer {
+  
+  footer div.large-footer {
     display: block;
     padding-bottom: 2em;
   }
