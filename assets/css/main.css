@@ -117,6 +117,7 @@ section.carousel-port div div a {
   bottom: 22%;
   margin: 0 5em;
   font-weight: 700;
+  font-size: 14px;
 }
 
 section.explanation-section i,
@@ -148,6 +149,7 @@ section.carousel-port div div h5 {
   color: white;
   text-shadow: 1px 1px black;
   font-weight: 700;
+  font-size: 14px;
 }
 
 footer div.large-footer div div h4 {
@@ -249,7 +251,7 @@ section.hero-lg div img {
 }
 
 section.carousel-port div div img {
-  border-radius: 50%;
+  border-radius: 50px;
   padding: 1em;
 }
 
