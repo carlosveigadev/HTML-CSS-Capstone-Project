@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
-    <script src="https://kit.fontawesome.com/187d11cae1.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Details Page</title>
+    <script src="https://kit.fontawesome.com/187d11cae1.js" crossorigin="anonymous"></script>
+    <title>Main Page</title>
 </head>
 <body>
     <nav>
@@ -33,48 +36,105 @@
             </ul>
         </div>
     </nav>
-    <section class="card-result py-4 px-4">
-        <div class="">
-            <h1 class="text-uppercase clr-orange text-center mb-4"><i class="far fa-sun"></i> A sunny beach day</h1>
-            <div class="row">
-                <div class="col-11 col-md-5 shadow-div"><h4>Location: <span>Current City</span></h4></div>
-                <div class="col-11 col-md-5 shadow-div"><h4>Host: <span>Hosts-Name</span></h4></div>
+    <section class="hero">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+                <h1 class="text-uppercase text-center px-2">[gatherings]... your gateway to connect with events around your area</h1>
+                <form class="d-flex flex-column my-2 py-4 px-4 rounded" action="search-results.html">
+                    <label class="text-uppercase text-center rounded pb-3" for="text">Search Events Nearby</label>
+                    <div class="search-form">
+                        <input type="text" id="text" placeholder="Insert your location here">
+                        <a class="anc-btn rounded text-uppercase px-3 text-center" href="search-results.html">Search</a>
+                    </div>
+                </form>
+                <a class="mr-auto ml-auto my-4 py-2 px-2 rounded btn-det" href="detail.html">How It Works</a>
+        </div>
+    </section>
+    <section class="explanation-section container-fluid d-none d-md-block my-4">
+        <h4 class="text-center my-5 clr-orange">[gatherings] works in four simple steps.</h4>
+        <div class="row text-center">
+            <div class="col-lg-6 py-2 px-5">
+                <div><i class="fas fa-search-location"></i></div>
+                <div class="py-3"><h5>1-Locate:</h5></div>
+                <div><p>It's simple, on [gatherings] homepage, enter the name of the location you want to spend some good quality time with people and click on search.</p></div>
             </div>
-            <div class="row">
-               <div class="col-11 col-md-5 shadow-div"><h4>Subject: <span>Beach Time</span></h4></div>
-               <div class="col-11 col-md-5 shadow-div"><h4>Date: <span>21/06/2020</span></h4></div>
+            <div class="col-lg-6 py-2 px-5">
+                <div><i class="fas fa-check-double"></i></div>
+                <div class="py-3"><h5>2-Confirm or Create:</h5></div>
+                <p>Go to check the events nearby the location you searched for and apply for any [gatherings] available. Every [gathering] has a subject, that you can search for too! If no [gatherings] are available on the location you selected, you can create and share your event.</p>
             </div>
-            <div class="row">
-               <div class="col-11 col-md-5 shadow-div"><h4>Initial Date: <span>21/06/2020</span></h4></div>
-               <div class="col-11 col-md-5 shadow-div"><h4>Final Date: <span>21/06/2020</span></h4></div>
+            <div class="col-lg-6 py-2 px-5">
+                <div><i class="fas fa-map-marked-alt"></i></div>
+                <div class="py-3"><h5>3-Go!</h5></div>
+                <p>Select the [gatherings], wait for the scheduled day and go! Be prepared to meet new people, create new connections and have a great time!</p>
             </div>
-            <div class="row">
-               <div class="col-11 col-md-5 shadow-div"><h4>Subject: <span>Beach Time</span></h4></div>
-               <div class="col-11 col-md-5 shadow-div"><h4>Daytime: <span>Daylight</span></h4></div>
-            </div>
-            <div class="d-flex flex-column my-2">
-              <div class="">
-                <button class="btn-primary float-right mx-5 px-3 py-3 text-uppercase font-weight-bold" type="button" name="button"><i class="fas fa-child"></i> Apply</button>
-              </div>
-              <div class="my-3 d-flex justify-content-between flex-wrap px-5">
-                <h2><span><i class="fas fa-phone-alt"></i></span>Tel:XXXX-XXXX</h2>
-                <h2><span><i class="fas fa-user-plus"></i></span>Bring +1</h2>
-                <h2><span><i class="fas fa-sun"></i></span>Day</h2>
-                <h2><span><i class="fas fa-user-shield"></i></span>Host Verified</h2>
-                <h2><span><i class="fas fa-bus"></i></span>Your Way</h2>
-                <h2><span><i class="far fa-money-bill-alt"></i></span>Not Required</h2>
-              </div>
+            <div class="col-lg-6 py-2 px-5">
+                <div><i class="fas fa-users"></i></div>
+                <div class="py-3"><h5>4-Have a good time:</h5></div>
+                <p>Once you are at the [gathering] location, look for the host, enjoy and have fun!</p>
             </div>
         </div>
     </section>
-    <section class="map-detail">
-      <div class="w-100 bg-light">
-        <h3 class="text-uppercase px-4 py-4 "><a class="text-dark" href="#"><i class="fas fa-book-medical"></i> Click To View More Details.</a></h3>
-      </div>
-      <h2 class="text-uppercase clr-orange text-center mt-5"><i class="far fa-map"></i> Map Directions</h2>
-      <div class="iframe-cont my-4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5990.322791734316!2d-48.59641115828827!3d-26.780501432634363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf65464c193f38409!2sPraia%20Grande!5e0!3m2!1spt-PT!2sbr!4v1592795405495!5m2!1spt-PT!2sbr" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
+    <section class="carousel-port">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active bg-orange">
+                <img src="assets/images/group-2.jpg" class="d-block w-100" alt="Group of People together">
+                <h4 class="my-3 ">[gatherings] near you</h4>
+                <h5 class="py-5">Every month a new you might find [gathering] near you and enjoy the company with people whom you can share mutual interests</h5>
+                <a class="clr-orange" href="search-results.html">Find a [gathering]</a>
+              </div>
+              <div class="carousel-item bg-gray">
+                <img src="assets/images/group-4.jpg" class="d-block w-100" alt="Group of People together">
+                <h4 class="my-3 ">[gatherings] connecting you </h4>
+                <h5 class="py-5">You can create [gatherings] events around your area and share them with people you know and with whoever wants to connect</h5>
+                <a class="clr-gray" href="search-results.html">Learn more about [gatherings]</a>
+              </div>
+              <div class="carousel-item bg-blue">
+                <img src="assets/images/group-3.jpg" class="d-block w-100" alt="Group of People together">
+                <h4 class="my-4">[gatherings] spreding love</h4>
+                <h5 class="py-5">[gatherings] let you meet new people, share interests and spreading love</h5>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="hero-lg w-100">
+        <div class="d-flex py-5 bg-orange justify-content-between">
+            <div class="px-5">
+                <h4 class="my-3 ">[gatherings] near you</h4>
+                <h5 class="py-5">Every month a new you might find [gathering] near you and enjoy the company with people whom you can share mutual interests</h5>
+                <a class="py-3 px-3 clr-orange" href="search-results.html">Find a [gathering]</a>
+            </div>
+            <div class="px-5">
+                <img src="assets/images/group-2.jpg" alt="Group of People together">
+            </div>
+        </div>
+        <div class="d-flex py-5 bg-gray justify-content-between">
+            <div class="px-5">
+                <h4 class="my-3 ">[gatherings] connecting you </h4>
+                <h5 class="py-5">You can create [gatherings] events around your area and share them with people you know and with whoever wants to connect</h5>
+                <a class="py-3 px-3 clr-gray" href="search-results.html">Learn more about [gatherings]</a>
+            </div>
+            <div class="px-5">
+                <img src="assets/images/group-4.jpg" alt="Group of People together">
+            </div>
+        </div>
+        <div class="d-flex py-5 bg-blue justify-content-between">
+            <div class="px-5">
+                <h4 class="my-4">[gatherings] spreding love</h4>
+                <h5 class="py-5">[gatherings] let you meet new people, share interests and spreading love</h5>
+            </div>
+            <div class="px-5">
+                <img src="assets/images/group-3.jpg" alt="Group of People together">
+            </div>
+        </div>
     </section>
     <footer class="d-flex flex-column">
         <div class="large-footer">
@@ -131,7 +191,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-between">
-            <div>
+            <div class="d-flex align-items-center">
                 <ul class="d-inline-flex py-3 px-3">
                     <li><a href=""><i class="fab fa-facebook-square pr-1"></i></a></li>
                     <li><a href=""><i class="fab fa-twitter pr-1"></i></a></li>
