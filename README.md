@@ -1,6 +1,6 @@
 # HTML and CSS capstone project - [gatherings].
 
->  This is a solo projects at the end of the of the Microverse Main Technical Curriculum of the HTML and CSS section. It's a real-world-like project, built with business specifications to improve and test the achievement of technical and soft skills gained during this section of the program. The main objective was to reproduce the design of The Directory of Schools Webpage inspired by [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE) and others on behance, with a different theme. I choose to create a website named [gatherings] where people can meet in real life (after the COVID-19 situation) creating and sharing events across the region desired.
+>  This is a solo projects at the end of the of the Microverse Main Technical Curriculum of the HTML and CSS section. It's a real-world-like project, built with business specifications to improve and test the achievement of technical and soft skills gained during this section of the program. The main objective was to reproduce the design of The Directory of Schools Webpage inspired by [Mathew Njuguna](https://www.behance.net/gallery/25563385/PatashuleKE) and others on behance, with a different theme. I chose to create a website named [gatherings] where people can meet in real life (after the COVID-19 situation) creating and sharing events across the region desired.
 
 **Main Page**
 <br>
