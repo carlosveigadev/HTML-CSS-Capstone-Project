@@ -28,9 +28,7 @@
   color: var(--primary-gray);
 }
 
-li,
-ul,
-a {
+li, ul, a {
   list-style-type: none;
 }
 
@@ -86,8 +84,7 @@ section.hero div form div.search-form {
   flex-direction: column;
 }
 
-section.hero a,
-section.hero div form input.button {
+section.hero a, section.hero div form input.button {
   background-color: var(--primary-color);
   color: white;
   font-weight: 700;
@@ -120,13 +117,11 @@ section.carousel-port div div a {
   font-size: 14px;
 }
 
-section.explanation-section i,
-section.search h1 {
+section.explanation-section i, section.search h1 {
   font-size: 2em;
 }
 
-section.card-result div h1,
-section.explanation-section h4 {
+section.card-result div h1, section.explanation-section h4 {
   font-size: 2em;
   font-weight: 700;
 }
@@ -140,8 +135,7 @@ section.explanation-section h5 {
   font-weight: 700;
 }
 
-section.carousel-port div div h4,
-section.carousel-port div div h5 {
+section.carousel-port div div h4, section.carousel-port div div h5 {
   position: absolute;
   bottom: 25%;
   padding: 0 5em;
@@ -156,8 +150,7 @@ footer div.large-footer div div h4 {
   padding: 1em 0;
 }
 
-footer div.large-footer ul li a,
-footer div.large-footer div:nth-child(2) h4 {
+footer div.large-footer ul li a, footer div.large-footer div:nth-child(2) h4 {
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
@@ -284,9 +277,7 @@ section.map-detail h3 {
   line-height: 2em;
 }
 
-section.map-detail h2,
-section.map-detail div h3,
-section.card-result div div h2 {
+section.map-detail h2, section.map-detail div h3, section.card-result div div h2 {
   font-size: 1.5em;
 }
 
@@ -417,39 +408,38 @@ section.search div input[type=text] {
   min-width: 328px;
 }
 
+/* search-result */
+
+.form-row {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 @media (min-width: 768px) {
   nav {
     flex-direction: row;
     height: 100px;
   }
-
-  nav div,
-  nav div span {
+  nav div, nav div span {
     align-self: center;
     padding-top: 0;
   }
-
   nav img {
     padding-left: 0.5em;
   }
-
   section.hero-lg {
     display: block;
   }
-
   section.carousel-port {
     display: none;
   }
-
   section.hero div h1 {
     font-size: 2em;
     margin-top: 2.5em;
   }
-
   section.hero form {
     min-width: 400px;
   }
-
   section.map-detail .iframe-cont {
     height: 500px;
   }
@@ -459,29 +449,23 @@ section.search div input[type=text] {
   nav div li span {
     display: inline;
   }
-
   nav div li a:hover {
     text-decoration: none;
   }
-
   section.hero div form {
     min-width: 700px;
   }
-
   section.hero div form input {
     width: 700px;
     margin-right: -5px;
   }
-
   section.hero div form div.search-form {
     flex-direction: row;
   }
-
   section.search div input[type=text] {
     min-width: 100px;
     max-width: 150px;
   }
-
   footer div.large-footer {
     display: block;
     padding-bottom: 2em;
